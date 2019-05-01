@@ -15,8 +15,8 @@ public class Window {
     private MainGame game;
     
 
-	public static final int WIDTH = 400;
-    public static final int HEIGHT = 400;
+	public static final int WIDTH = 1024;
+    public static final int HEIGHT = 768;
     
     //Scales the screen
     public static int Scale = 1;
@@ -62,7 +62,7 @@ public class Window {
         bufferStrategy.show();
         
         //Clears screen
-        g.clearRect(0, 0, (Window.WIDTH) * (int)(Scale / zoom), (Window.HEIGHT) * (int)(Scale / zoom));
+        g.clearRect(-10000, -10000, 20000, 20000);
     }
 
     public Canvas getCanvas() {

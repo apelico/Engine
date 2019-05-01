@@ -1,8 +1,8 @@
 package com.engine;
 
 public class Vector2 {
-	private float x;
-	private float y;
+	public float x;
+	public float y;
 	
 	public Vector2(float x, float y)
 	{
@@ -25,21 +25,5 @@ public class Vector2 {
 	{
 		x -= vec.x;
 		y -= vec.y;
-	}
-	
-	public float getX() {
-		return x;
-	}
-	
-	public float getY() {
-		return y;
-	}
-	
-	public void setX(float x) {
-		this.x = x;
-	}
-	
-	public void setY(float y) {
-		this.y = y;
 	}
 }
